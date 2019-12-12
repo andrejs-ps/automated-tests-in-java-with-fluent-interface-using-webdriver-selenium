@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="sheet.css">
+    <title></title>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  
+  <script>
+ 
+ $( document ).ready(function() {
+	$("#login_on_login_page").click(function(){
+		 $("#sign_in_fail").toggleClass( "hide_me" );
+	});
+	
+    console.log( "ready!" );
+});
+  </script>
+
+</head>
+
+<body>
+
+<div id="sign_in_fail" class="hide_me">
+	<p> Invalid user name or password </p>
+</div>
+    <div id="login_left">
+
+        <div class="wrapper">
+            <div class="logo">
+                <img src="login-logo.png" alt="Pluralsight">
+            </div>
+            <form action="/id/" id="signInForm" method="post">
+                <input id="RedirectUrl" name="RedirectUrl" type="hidden" value="/id/dashboard">
+                <div>
+                    <label class="psds-text-input__label" for="Username">Email or Username</label>
+					<br/>
+                    <input class="psds-text-input__field psds-text-input__field--appearance-subtle" autocapitalize="none" autocorrect="off" data-val="true" data-val-required="The Email or Username field is required." id="Username" name="Username" type="text" value="">
+                </div>
+                <div>
+                    <label class="psds-text-input__label" for="Password">Password</label>
+					<br/>
+                    <input class="psds-text-input__field psds-text-input__field--appearance-subtle" data-val="true" data-val-required="The Password field is required." id="Password" name="Password" type="password">
+                </div>
+                <input id="ShowCaptcha" name="ShowCaptcha" type="hidden" value="False">
+                <input id="ReCaptchaSiteKey" name="ReCaptchaSiteKey" type="hidden" value="6LeVIgoTAAAAAIhx_TOwDWIXecbvzcWyjQDbXsaV">
+				
+				<br/>
+                <span id="login_on_login_page" class="psds-button psds-button--size-medium">
+                    Sign in
+                </span>
+            </form>
+
+  
+        </div>
+
+    </div>
+
+    <div id="login_right">
+
+        <div class="banner">
+            <div class="marketing-banner">
+                <div class="marketing-banner-text">Let's create the future <strong>together</strong>.</div>
+                <a href="https://www.pluralsight.com/pricing" id="free_trial_on_login" class="psds-button psds-button--size-medium psds-button--appearance-stroke">
+                    <span class="psds-button__text">Start a FREE 10-day trial</span>
+                </a>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>

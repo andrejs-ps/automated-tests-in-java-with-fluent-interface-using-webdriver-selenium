@@ -1,0 +1,330 @@
+body {
+	font-family: "Gotham SSm A","Gotham SSm B",sans-serif;
+    font-size: .875em;
+	    background: black;
+}
+
+#header{
+	background: rgba(33,33,33,0.9);
+    height: 50px;
+    color: #ccc;
+    margin: -20px -8px;
+    padding: 30px 20px 0px 20px;
+}
+
+#header div {
+	display: inline;
+	float: left;
+
+}
+
+#sitename {
+	 font-size: 24px;
+	 margin-right: 60px;
+	 margin-top: 5px;
+}
+
+#courses {
+	    color: #fff;
+	    text-transform: uppercase;
+    border-radius: 5px;
+    border: 1px solid #555;
+    display: block;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0;
+    padding: .5845em 1em;
+    font-size: 12px;
+    text-align: center;
+    text-decoration: none;
+    transition: opacity .3s ease;
+    outline: 0;
+	margin-right: 20px;
+}
+
+.header_search--input {
+	    background-color: transparent;
+    background-size: 32px 32px;
+    background-repeat: no-repeat;
+    background-position: 3px 7px;
+    border: solid 1px #555;
+    color: #fff;
+    font-family: inherit;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    padding: .5845em 1em .5845em 2.5em;
+    margin: 0;
+    position: relative;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-clip: padding-box;
+    appearance: none;
+    transition: all .3s ease;
+}
+
+#getStarted {
+
+	    background: #f15b2a;
+    border: solid 1px #f15b2a;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-left: 16px;
+    padding: 0 24px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+    appearance: none;
+    transition: background 300ms ease-out;
+    border-radius: 2px;
+    box-sizing: border-box;
+    transition: transform 100ms ease-in-out !important;
+		float:right !important;
+}
+#login {
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-left: 16px;
+    padding: 0 24px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+    appearance: none;
+    transition: background 300ms ease-out;
+    border-radius: 2px;
+    box-sizing: border-box;
+    transition: transform 100ms ease-in-out !important;
+	float:right !important;
+}
+
+#content{
+	background-image: url(b2c-hero2.jpg);
+    background-position: center center;
+	    height: 650px;
+    margin-left: -10px;
+}
+
+#content {
+	color: white;
+}
+#content h1, #content p{
+	margin-left: 20px; 
+}
+
+#search_content {
+	    background: black;
+    margin-left: -10px;
+}
+
+#Filters {
+	    width: 260px;
+    border-right: 15px solid #000;
+    height: 100%;
+    padding: 0;
+    vertical-align: top;
+    position: relative;
+    background: #222;
+    padding: 5px 0px 10px 30px;
+    margin: 50px 20px;
+    color: #f2f2f2;
+    float: left;
+    margin-left: -490px;
+}
+
+#search_content li {
+	list-style-type: none;
+}
+
+#search_content li a, .search-result__title a {
+	text-decoration: none;
+	color: white;
+}
+
+#courses_tabs{
+    width: 600px;
+    float: left;
+    margin: 45px 20px 40px -10px;
+	background: #222;
+	padding-left: 20px;
+	padding-bottom: 15px;
+}
+.tab-title {
+	display: inline;
+  list-style-type: none;
+  padding-right: 20px;
+  float: left;
+}
+
+.search-result__info {
+	color: white;
+}
+
+#course_content {
+	    margin: -10px -10px;
+}
+
+#course-page-hero {
+	color: white;
+	    height: 800px;
+		padding: 20px;
+}
+
+#free_trial {
+	font-weight: 400;
+    font-size: 16px;
+    line-height: 1.1;
+    min-width: 240px;
+    padding: 15px 30px;
+    border: 1px solid transparent;
+    white-space: normal;
+    border-radius: 2px;
+    color: #fff;
+    background-color: #f15b2a;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 300ms ease-out;
+    margin: 0 0 20px;
+	
+	float: left;
+    margin-right: 40px;
+}
+
+#course_overview {
+	border: 1px solid white;
+    color: white;
+	font-size: 16px;
+    line-height: 1.1;
+    min-width: 240px;
+    padding: 15px 30px;
+	    width: 240px;
+    float: left;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+#login_left {
+    float: left;
+    width: 50%;
+	justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+	line-height: 28px;
+
+}
+
+.psds-text-input__label {
+	color: #ccc;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 500;
+    padding-bottom: 8px;
+}
+
+.psds-text-input__field {
+	color: #ccc;
+    background: #181818;
+    border: 1px solid #555;
+	height: 20px;
+    min-width: 192px;
+    border-radius: 2px;
+}
+
+#login_on_login_page {
+    width: 180px;
+    background: #ff7b39;
+    font-size: 14px;
+    line-height: 24px;
+    padding: 4px 16px;
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: stretch;
+    padding: 12px 8px;
+    border: 0;
+    border-radius: 2px;
+    font-size: 14px;
+    line-height: 8px;
+    font-weight: 500;
+    text-align: center;
+    color: #fff;
+    background: #f96816;
+    cursor: pointer;
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+#login_right {
+	float: left;
+    width: 48%;
+}
+
+.banner {
+	
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    background-image: url(login-bg.jpg);
+    background-position: 50%;
+    background-size: cover;
+	
+}
+
+.marketing-banner-text {
+	width: 100%;
+    color: #fff;
+    font-size: 48px;
+    margin-bottom: 24px;
+}
+
+#free_trial_on_login {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: stretch;
+    padding: 12px 16px;
+    border-radius: 2px;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 500;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    white-space: nowrap;
+    text-decoration: none;
+	border: 1px solid white
+    transition: all .3s;
+}
+
+#sign_in_fail p {
+	background-color: #de3636;
+    padding: 8px 10px;
+    color: white;
+    border-radius: 2px;
+	justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hide_me {
+	display: none;
+}
+
