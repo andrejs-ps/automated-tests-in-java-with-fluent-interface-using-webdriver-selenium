@@ -1,5 +1,11 @@
-Demo code for my Pluralsight course: Automated Tests in Java with Fluent Interface Using WebDriver Selenium  
-You can find all my courses under: https://app.pluralsight.com/profile/author/andrejs-doronins
+## Demo code for my Pluralsight course: Automated Tests in Java with Fluent Interface Using WebDriver Selenium  
+
+Automated UI tests should be easy to read and clearly show business logic, not filled with low-level code. Learn how to create a Fluent Interface for your tests and make them highly readable, easy to maintain and pleasant to work with.
+
+> [!IMPORTANT]
+> The topics taught in this course apply to any version of Selenium, including Selenium 4.
+
+You can find all my courses at: https://www.pluralsight.com/authors/andrejs-doronins
 
 ## Setup:
 
